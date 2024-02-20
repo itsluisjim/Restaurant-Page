@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-VariableFont_wght.ttf') format('ttf'),  url('./fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+    
+  }
+@font-face {
+    font-family: 'Sora';
+    src: url('./fonts/Sora-VariableFont_wght.ttf') format('ttf'),  url('./fonts/Sora-VariableFont_wght.ttf') format('truetype');
+    
+  }
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(249, 249, 249);
+}
+
+.title {
+    font-family: 'Sora', 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 5rem;
+    background-color: #ffffff;
+}
+
+.icon-title {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.order-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+
+    border: none;
+    background-color: white;
+
+    font-family: 'Mulish', sans-serif;
+
+}
+
+button#booking {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+button#booking:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+button:hover {
+    cursor: pointer;
+    color: #3EBDE0;
+}
+
+.active {
+    color: #3EBDE0;
+}
+
+/* Home */
+#main-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/pokebowl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 5rem;
+}
+
+#home--card {
+    padding: 1rem 2rem;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    font-family: 'Sora', 'Times New Roman', Times, serif;
+}
+
+#card--heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#card--text {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#card--btn {
+    background-color: #3EBDE0;
+    width: 12rem;
+    padding: 0.7rem 2rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+}
+
+#card--btn:hover {
+    background-color: #36b1d2;
+}
+
+
+/* menu */
+
+#menu--img-banner {
+    background-image: url(./assets/menu-img.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu--heading {
+    text-align: center;
+    font-family: 'Sora', 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+}
+
+#menu--items {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem 4rem 4rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#item-card {
+    width: 250px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+#item-img {
+    width: 250px;
+}
+
+#item--heading {
+    font-family: 'Sora', 'Times New Roman', Times, serif;
+    margin-bottom: 0.3rem;
+}
+#item--text {
+    font-family: 'Mulish', 'Times New Roman', Times, serif;
+    color: gray;
+    height: 8rem;
+}
+
+#item--btn {
+    width: fit-content;
+    color: #3EBDE0;
+    background-color: #F2FAFD;
+    border-radius: 30px;
+    padding: 0.6rem 1rem;
+    border: none;
+    font-size: 1rem;
+    justify-self: flex-end;
+}
+
+#item--btn:hover {
+    background-color: #3aadcd;
+    color: #F2FAFD;
+}
+
+/* About */
+
+#about-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contentContainer {
+    width: 50%;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-family: 'Sora', 'Times New Roman', Times, serif;
+}
+
+#about-subheading {
+    font-family: 'Mulish', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+#about-text {
+    font-family: 'Mulish', 'Times New Roman', Times, serif;
+    line-height: 1.8rem;
+}
+
+
+#about-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+#about-icon {
+    width: 3rem;
+}
